@@ -1,3 +1,4 @@
+@import "media.css";
 @import "fonts/font/stylesheet.css";
 
 * {
@@ -117,25 +118,6 @@ header {
     max-width: 756px;
 }
 
-.info .text h2 {
-    font-size: 62px;
-    color: white;
-    letter-spacing: 2px;
-    font-width: normal;
-    font-family: "Spock Pro";
-    line-height: 1.33;
-    text-align: center;
-}
-
-.info .text p {
-    font-size: 21px;
-    color: white;
-    line-height: 1.33;
-    text-align: center;
-    font-weight: 300;
-    font-family: "Spock Pro";
-    margin-top: 20px;
-}
 
 .arrow {
     position: absolute;
@@ -149,12 +131,7 @@ header {
     animation: up_down .55s infinite linear alternate;
 }
 
-.work {
-    width: calc(100% / 3 - 10px);
-    margin-left: 10px;
-    margin-top: 45px;
-    position: relative;
-}
+
 
 .works {
     margin-left: -10px;

@@ -1,0 +1,70 @@
+/*320px — 480px: Mobile devices.*/
+/*481px — 768px: iPads, Tablets.*/
+/*769px — 1024px: Small screens, laptops.*/
+/*1025px — 1200px: Desktops, large screens.*/
+/*1201px and more — Extra large screens, TV.*/
+
+@media only screen and (min-width: 596px) {
+    .work {
+        width: calc(100%/3  - 10px);
+        margin-left: 10px;
+        margin-top: 45px;
+        position: relative;
+    }
+
+
+    .info .text h2 {
+        font-size: 62px;
+        color: white;
+        letter-spacing: 2px;
+        font-width: normal;
+        font-family: "Spock Pro";
+        line-height: 1.33;
+        text-align: center;
+    }
+
+    .info .text p {
+        font-size: 21px;
+        color: white;
+        line-height: 1.33;
+        text-align: center;
+        font-weight: 300;
+        font-family: "Spock Pro";
+        margin-top: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 595px) {
+    .work {
+        width: calc(100%  - 10px);
+        margin-left: 10px;
+        margin-top: 65px;
+        position: relative;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .info .text h2 {
+        font-size: 52px;
+        color: white;
+        letter-spacing: 2px;
+        font-width: normal;
+        font-family: "Spock Pro";
+        line-height: 1.33;
+        text-align: center;
+    }
+
+    .info .text p {
+        font-size: 20px;
+        color: white;
+        line-height: 1.33;
+        text-align: center;
+        font-weight: 300;
+        font-family: "Spock Pro";
+        margin-top: 20px;
+    }
+    
+}
