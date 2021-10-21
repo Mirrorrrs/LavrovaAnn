@@ -1,0 +1,434 @@
+@import "fonts/font/stylesheet.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Spock Essential Ultra";
+}
+
+a {
+    text-underline: none;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.nav {
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+    padding: 0 30px;
+}
+
+.container_head {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Spock Pro";
+    letter-spacing: 2px;
+}
+
+.navbar a:nth-child(1) {
+    margin-right: 20px;
+}
+
+header {
+    position: fixed;
+    z-index: 501;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.info {
+    height: 100vh;
+    position: relative;
+}
+
+.paralax-top {
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 500;
+    width: 100%;
+    height: 100vh;
+}
+
+.paralax {
+    position: absolute;
+    top: 100vh;
+    width: 100%;
+    z-index: 600;
+    background: white;
+}
+
+.info .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: url("media/лаврова анастасия.svg") no-repeat center/cover;
+
+}
+
+.info .text_wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info .background .grey {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.42);
+}
+
+.info .text {
+    max-width: 756px;
+}
+
+.info .text h2 {
+    font-size: 62px;
+    color: white;
+    letter-spacing: 2px;
+    font-width: normal;
+    font-family: "Spock Pro";
+    line-height: 1.33;
+    text-align: center;
+}
+
+.info .text p {
+    font-size: 21px;
+    color: white;
+    line-height: 1.33;
+    text-align: center;
+    font-weight: 300;
+    font-family: "Spock Pro";
+    margin-top: 20px;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 50px;
+    z-index: 4;
+    fill: white;
+    left: 50%;
+    transform: translateX(-50%) rotate(90deg);
+    width: 50px;
+    height: 50px;
+    animation: up_down .55s infinite linear alternate;
+}
+
+.work {
+    width: calc(100% / 3 - 10px);
+    margin-left: 10px;
+    margin-top: 45px;
+    position: relative;
+}
+
+.works {
+    margin-left: -10px;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work .img_container {
+    width: 80%;
+    position: relative;
+    left: 50%;
+    top: 0;
+    padding-bottom: 40%;
+    transform: translateX(-50%);
+    transition: .5s;
+    box-shadow: 0px 3px 15px 0px rgba(34, 60, 80, 0.2);
+}
+
+
+.work .img_container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+
+.works_grid {
+    margin-top: 30px;
+}
+
+.work .slides .img_container:nth-child(1) {
+    top: 0;
+    z-index: 5;
+}
+
+.work .slides .img_container:nth-child(2) {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.work .slides .img_container:nth-child(3) {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.work .title {
+    position: relative;
+    text-align: center;
+    top: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Spock Pro";
+    font-style: normal;
+}
+
+.work .slides:hover > .img_container:nth-child(1) {
+    transform: translateX(-50%) rotate(-5deg);
+    left: 40%;;
+    box-shadow: 0px 3px 45px 0px rgba(34, 60, 80, 0.2);
+}
+
+.work .slides:hover > .img_container:nth-child(2) {
+    transform: translateX(-50%) rotate(0deg);
+    left: 54%;
+    box-shadow: 0px 3px 45px 0px rgba(34, 60, 80, 0.2);
+}
+
+.work .slides:hover > .img_container:nth-child(3) {
+    transform: translateX(-50%) rotate(5deg);
+    left: 60%;
+    box-shadow: 0px 3px 45px 0px rgba(34, 60, 80, 0.2);
+}
+
+.hidden_slides {
+    display: none;
+}
+.slider {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: .5s;
+}
+
+.slides_wrapper {
+    width: 70%;
+    position: relative;
+    padding-bottom: 40%;
+    overflow: hidden;
+}
+
+.slider .cross {
+    position: absolute;
+    z-index: 2001;
+    right: 50px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.slider .cross img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.slider .slides {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+}
+
+.slider .slides .slide {
+    flex-basis: 100%;
+    flex-shrink: 0;
+    width: 100%;
+    margin-left: 0;
+    transition: .5s;
+    height: 100%;
+}
+
+
+
+.slider .slides .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.slider .slider-arrow {
+    width: 30px;
+    height: 30px;
+    border-top:3px solid black
+}
+
+.slider .navigation {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow-right {
+    border-right: 3px solid black;
+    transform: rotate(45deg);
+}
+
+.arrow-left {
+    border-left: 3px solid black;
+    transform: rotate(-45deg);
+}
+
+.arrow-wrapper {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    padding: 0 60px;
+}
+
+.arrow-right-wrapper {
+    justify-content: flex-end;
+}
+
+
+.contact-me-wrapper {
+    width: 100%;
+    background: white;
+    margin-top: 90px;
+
+}
+
+.contact-me-wrapper .contact-me {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-me-wrapper .contact-me h4 {
+    font-size: 50px;
+    font-family: "Spock Pro";
+    font-weight: 300;
+}
+
+.contact-me-wrapper .contact-me p{
+    font-size: 20px;
+}
+
+.contact-me-wrapper .contact-me button {
+    font-family: "Spock Pro";
+    margin-top: 30px;
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    border:none;
+    outline:none;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.07);
+    position: relative;
+}
+
+.contact-me-wrapper .contact-me button:before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: -50px;
+    background: #3a83f1;
+    transition: .5s;
+    z-index: 30;
+    left:-50px;
+}
+
+.contact-me-wrapper .contact-me button:after {
+    content: "COPY";
+    font-family: "Spock Pro";
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 31;
+    transition: .2s;
+}
+
+.contact-me-wrapper .contact-me button:hover:after{
+    color: white;
+}
+
+
+.contact-me-wrapper .contact-me button:hover:before {
+    width: 350px;
+    height: 350px;
+}
+
+
+
+footer {
+    margin-top: 80px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.82);
+    height: 20vh;
+}
+
+@keyframes up_down {
+    from {
+        bottom: 50px;
+    }
+
+    to {
+        bottom: 40px
+    }
+}

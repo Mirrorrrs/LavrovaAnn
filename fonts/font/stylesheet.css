@@ -1,0 +1,312 @@
+@font-face {
+    font-family: 'Spock Essential';
+    src: url('SpockEss-LightIt.eot');
+    src: local('Spock Essential Light Italic'), local('SpockEss-LightIt'),
+        url('SpockEss-LightIt.eot?#iefix') format('embedded-opentype'),
+        url('SpockEss-LightIt.woff2') format('woff2'),
+        url('SpockEss-LightIt.woff') format('woff'),
+        url('SpockEss-LightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spock Essential';
+    src: url('SpockEss-BoldIt.eot');
+    src: local('Spock Essential Bold Italic'), local('SpockEss-BoldIt'),
+        url('SpockEss-BoldIt.eot?#iefix') format('embedded-opentype'),
+        url('SpockEss-BoldIt.woff2') format('woff2'),
+        url('SpockEss-BoldIt.woff') format('woff'),
+        url('SpockEss-BoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spock Essential';
+    src: url('SpockEss-BlackIt.eot');
+    src: local('Spock Essential Black Italic'), local('SpockEss-BlackIt'),
+        url('SpockEss-BlackIt.eot?#iefix') format('embedded-opentype'),
+        url('SpockEss-BlackIt.woff2') format('woff2'),
+        url('SpockEss-BlackIt.woff') format('woff'),
+        url('SpockEss-BlackIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spock Essential';
+    src: url('SpockEss-Bold.eot');
+    src: local('Spock Essential Bold'), local('SpockEss-Bold'),
+        url('SpockEss-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SpockEss-Bold.woff2') format('woff2'),
+        url('SpockEss-Bold.woff') format('woff'),
+        url('SpockEss-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spock Pro';
+    src: url('SpockPro-Light.eot');
+    src: local('Spock Pro Light'), local('SpockPro-Light'),
+        url('SpockPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('SpockPro-Light.woff2') format('woff2'),
+        url('SpockPro-Light.woff') format('woff'),
+        url('SpockPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spock Pro';
+    src: url('SpockPro-LightIt.eot');
+    src: local('Spock Pro Light Italic'), local('SpockPro-LightIt'),
+        url('SpockPro-LightIt.eot?#iefix') format('embedded-opentype'),
+        url('SpockPro-LightIt.woff2') format('woff2'),
+        url('SpockPro-LightIt.woff') format('woff'),
+        url('SpockPro-LightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spock Essential';
+    src: url('SpockEss-Light.eot');
+    src: local('Spock Essential Light'), local('SpockEss-Light'),
+        url('SpockEss-Light.eot?#iefix') format('embedded-opentype'),
+        url('SpockEss-Light.woff2') format('woff2'),
+        url('SpockEss-Light.woff') format('woff'),
+        url('SpockEss-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spock Pro';
+    src: url('SpockPro-Bold.eot');
+    src: local('Spock Pro Bold'), local('SpockPro-Bold'),
+        url('SpockPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SpockPro-Bold.woff2') format('woff2'),
+        url('SpockPro-Bold.woff') format('woff'),
+        url('SpockPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spock Essential';
+    src: url('SpockEss-ThinIt.eot');
+    src: local('Spock Essential Thin Italic'), local('SpockEss-ThinIt'),
+        url('SpockEss-ThinIt.eot?#iefix') format('embedded-opentype'),
+        url('SpockEss-ThinIt.woff2') format('woff2'),
+        url('SpockEss-ThinIt.woff') format('woff'),
+        url('SpockEss-ThinIt.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spock Essential';
+    src: url('SpockEss-Black.eot');
+    src: local('Spock Essential Black'), local('SpockEss-Black'),
+        url('SpockEss-Black.eot?#iefix') format('embedded-opentype'),
+        url('SpockEss-Black.woff2') format('woff2'),
+        url('SpockEss-Black.woff') format('woff'),
+        url('SpockEss-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spock Pro';
+    src: url('SpockPro-Black.eot');
+    src: local('Spock Pro Black'), local('SpockPro-Black'),
+        url('SpockPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('SpockPro-Black.woff2') format('woff2'),
+        url('SpockPro-Black.woff') format('woff'),
+        url('SpockPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spock Essential Ultra';
+    src: url('SpockEss-UltraLight.eot');
+    src: local('Spock Essential Ultra Light'), local('SpockEss-UltraLight'),
+        url('SpockEss-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('SpockEss-UltraLight.woff2') format('woff2'),
+        url('SpockEss-UltraLight.woff') format('woff'),
+        url('SpockEss-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spock Essential';
+    src: url('SpockEss-Regular.eot');
+    src: local('Spock Essential'), local('SpockEss-Regular'),
+        url('SpockEss-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SpockEss-Regular.woff2') format('woff2'),
+        url('SpockEss-Regular.woff') format('woff'),
+        url('SpockEss-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spock Essential';
+    src: url('SpockEss-RegularIt.eot');
+    src: local('Spock Essential Italic'), local('SpockEss-RegularIt'),
+        url('SpockEss-RegularIt.eot?#iefix') format('embedded-opentype'),
+        url('SpockEss-RegularIt.woff2') format('woff2'),
+        url('SpockEss-RegularIt.woff') format('woff'),
+        url('SpockEss-RegularIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spock Pro';
+    src: url('SpockPro-RegularIt.eot');
+    src: local('Spock Pro Italic'), local('SpockPro-RegularIt'),
+        url('SpockPro-RegularIt.eot?#iefix') format('embedded-opentype'),
+        url('SpockPro-RegularIt.woff2') format('woff2'),
+        url('SpockPro-RegularIt.woff') format('woff'),
+        url('SpockPro-RegularIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spock Essential Ultra';
+    src: url('SpockEss-UltraLightIt.eot');
+    src: local('Spock Essential Ultra Light Italic'), local('SpockEss-UltraLightIt'),
+        url('SpockEss-UltraLightIt.eot?#iefix') format('embedded-opentype'),
+        url('SpockEss-UltraLightIt.woff2') format('woff2'),
+        url('SpockEss-UltraLightIt.woff') format('woff'),
+        url('SpockEss-UltraLightIt.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spock Essential';
+    src: url('SpockEss-Thin.eot');
+    src: local('Spock Essential Thin'), local('SpockEss-Thin'),
+        url('SpockEss-Thin.eot?#iefix') format('embedded-opentype'),
+        url('SpockEss-Thin.woff2') format('woff2'),
+        url('SpockEss-Thin.woff') format('woff'),
+        url('SpockEss-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spock Pro';
+    src: url('SpockPro-BlackIt.eot');
+    src: local('Spock Pro Black Italic'), local('SpockPro-BlackIt'),
+        url('SpockPro-BlackIt.eot?#iefix') format('embedded-opentype'),
+        url('SpockPro-BlackIt.woff2') format('woff2'),
+        url('SpockPro-BlackIt.woff') format('woff'),
+        url('SpockPro-BlackIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spock Pro';
+    src: url('SpockPro-BoldIt.eot');
+    src: local('Spock Pro Bold Italic'), local('SpockPro-BoldIt'),
+        url('SpockPro-BoldIt.eot?#iefix') format('embedded-opentype'),
+        url('SpockPro-BoldIt.woff2') format('woff2'),
+        url('SpockPro-BoldIt.woff') format('woff'),
+        url('SpockPro-BoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spock Pro';
+    src: url('SpockPro-Thin.eot');
+    src: local('Spock Pro Thin'), local('SpockPro-Thin'),
+        url('SpockPro-Thin.eot?#iefix') format('embedded-opentype'),
+        url('SpockPro-Thin.woff2') format('woff2'),
+        url('SpockPro-Thin.woff') format('woff'),
+        url('SpockPro-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spock Pro Ultra';
+    src: url('SpockPro-UltraLight.eot');
+    src: local('Spock Pro Ultra Light'), local('SpockPro-UltraLight'),
+        url('SpockPro-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('SpockPro-UltraLight.woff2') format('woff2'),
+        url('SpockPro-UltraLight.woff') format('woff'),
+        url('SpockPro-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spock Pro';
+    src: url('SpockPro-ThinIt.eot');
+    src: local('Spock Pro Thin Italic'), local('SpockPro-ThinIt'),
+        url('SpockPro-ThinIt.eot?#iefix') format('embedded-opentype'),
+        url('SpockPro-ThinIt.woff2') format('woff2'),
+        url('SpockPro-ThinIt.woff') format('woff'),
+        url('SpockPro-ThinIt.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spock Pro Ultra';
+    src: url('SpockPro-UltraLightIt.eot');
+    src: local('Spock Pro Ultra Light Italic'), local('SpockPro-UltraLightIt'),
+        url('SpockPro-UltraLightIt.eot?#iefix') format('embedded-opentype'),
+        url('SpockPro-UltraLightIt.woff2') format('woff2'),
+        url('SpockPro-UltraLightIt.woff') format('woff'),
+        url('SpockPro-UltraLightIt.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spock Pro';
+    src: url('SpockPro-Regular.eot');
+    src: local('Spock Pro'), local('SpockPro-Regular'),
+        url('SpockPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SpockPro-Regular.woff2') format('woff2'),
+        url('SpockPro-Regular.woff') format('woff'),
+        url('SpockPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
